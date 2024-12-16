@@ -206,14 +206,14 @@
 
 <h1 id="0x2-修改frida"><a href="#0x2-修改frida" class="headerlink" title="0x2 修改frida"></a>0x2 修改frida</h1><blockquote>
 <p>先把所有的 “frida_agent_main” 换成”main”</p>
-<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://static.blog.helloty.cn/images/main.png">
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://static.blog.helloty.cn/images/main.png">
 </blockquote>
 <blockquote>
 <p>然后直接git am打上patch, 如果不会打的话其实一个个改也不费事，因为核心其实在python脚本，和前面的字符串处理</p>
 </blockquote>
 <blockquote>
 <p>我这里把frida改成了rusda，你也可以改成其他的</p>
-<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://static.blog.helloty.cn/images/patch.png">
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://static.blog.helloty.cn/images/patch.png">
 </blockquote>
 <p>github: <a target="_blank" rel="noopener" href="https://github.com/taisuii/rusda">GitHub - taisuii&#x2F;rusda: 对frida 16.2.1的patch</a></p>
 <blockquote>
@@ -234,7 +234,7 @@
 
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">frida -H 127.0.0.1:12345 -f com.yimian.envcheck</span><br></pre></td></tr></table></figure>
 
-<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://static.blog.helloty.cn/images/run.png">
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://static.blog.helloty.cn/images/run.png">
 
 <h1 id="0x4-参考"><a href="#0x4-参考" class="headerlink" title="0x4 参考"></a>0x4 参考</h1><blockquote>
 <p><a target="_blank" rel="noopener" href="https://github.com/Ylarod/Florida/tree/main">GitHub - Ylarod&#x2F;Florida: 基础反检测 frida-server &#x2F; Basic anti-detection frida-server</a></p>
